@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- M3 标准无ActionBar主题，适配你的Compose项目 -->
+    <style name="Theme.DroneActivation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- M3 不再使用 colorPrimary / colorOnPrimary，全部删除 -->
+        <!-- 如需状态栏配色可保留这两行，可选 -->
+        <!-- <item name="android:statusBarColor">?attr/colorSurface</item> -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
